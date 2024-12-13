@@ -1,0 +1,10 @@
+aws:
+  region: us-east-1
+  credentialsSecretName: aws-creds
+ec2:
+  instanceType: t2.micro
+  amiId: ami-0c80e2b6ccb9ad6d1  # Replace with a valid AMI ID for your region
+  keyName: MyJenkinsEC2key
+  securityGroupIds:
+    - sg-233a5857
+  subnetId: subnet-e4bf5599
